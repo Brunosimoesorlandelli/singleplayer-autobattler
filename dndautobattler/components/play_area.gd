@@ -3,11 +3,11 @@ extends TileMapLayer
 
 @export var unit_grid: UnitGrid
 @export var tile_highlighter: TileHighlighter
-@export var bounds: Rect2i
 
+var bounds: Rect2i
 
 func _ready() -> void:
-	bounds = bounds
+	bounds = Rect2i(Vector2.ZERO, unit_grid.size)
 
 
 func get_tile_from_global(global: Vector2) -> Vector2i:

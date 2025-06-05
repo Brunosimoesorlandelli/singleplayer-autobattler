@@ -5,7 +5,7 @@ extends Node
 
 
 func _ready() -> void:
-	var units := get_tree().get_nodes_in_group("units")
+	var units := get_tree().get_nodes_in_group("units_group")
 	for unit: Unit in units:
 		setup_unit(unit)
 
@@ -50,10 +50,9 @@ func _on_unit_drag_started(unit: Unit) -> void:
 	_set_highlighters(true)
 	
 	var i := _get_play_area_for_position(unit.global_position)
-	print(i)
+
 	if i > -1:
 		var tile := play_areas[i].get_tile_from_global(unit.global_position)
-		print(tile)
 		play_areas[i].unit_grid.remove_unit(tile)
 
 

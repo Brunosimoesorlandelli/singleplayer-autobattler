@@ -22,7 +22,7 @@ border_width_right = 1
 border_width_bottom = 1
 border_color = Color(0, 0.733333, 0.313726, 0.392157)
 
-[node name="Unit" type="Area2D" groups=["units"]]
+[node name="Unit" type="Area2D" groups=["units_group"]]
 script = ExtResource("1_fvc8g")
 stats = ExtResource("2_vh40f")
 metadata/_edit_group_ = true

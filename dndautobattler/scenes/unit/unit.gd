@@ -13,7 +13,7 @@ extends Area2D
 func _ready() -> void:
 	if not Engine.is_editor_hint():
 		drag_and_drop.drag_started.connect(_on_drag_started)
-		drag_and_drop.drag_cancelled.connect(_on_drag_canceled)
+		drag_and_drop.drag_canceled.connect(_on_drag_canceled)
 
 func set_stats(value: UnitStats) -> void:
 	stats = value

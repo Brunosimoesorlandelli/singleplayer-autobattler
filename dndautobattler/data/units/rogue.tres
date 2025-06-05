@@ -5,5 +5,6 @@
 [resource]
 script = ExtResource("1_y7mnb")
 name = "Rogue"
+classe = 10
 skin_coordinates = Vector2i(3, 0)
 metadata/_custom_type_script = "uid://cfdyxlwk4ku8"

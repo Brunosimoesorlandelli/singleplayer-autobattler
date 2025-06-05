@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="UnitStats" load_steps=2 format=3 uid="uid://ckvoy4y6rpt2e"]
+
+[ext_resource type="Script" uid="uid://cfdyxlwk4ku8" path="res://data/units/unit_stats.gd" id="1_7sqbm"]
+
+[resource]
+script = ExtResource("1_7sqbm")
+name = "Fighter"
+classe = 6
+skin_coordinates = Vector2i(0, 1)
+metadata/_custom_type_script = "uid://cfdyxlwk4ku8"
